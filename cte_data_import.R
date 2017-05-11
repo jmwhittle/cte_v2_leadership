@@ -86,3 +86,4 @@ cte.table <- industry.academic %>%
   filter(`CTE Program` == "yes" & 
            Education != "Master's degree" & 
            Education != "Doctoral or professional degree" & 
+           Education != "Bachelor's degree")
